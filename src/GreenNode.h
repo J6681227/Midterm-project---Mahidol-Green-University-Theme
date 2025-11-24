@@ -1,10 +1,11 @@
 #ifndef GREENNODE_H
 #define GREENNODE_H
+
 using namespace std;
 
 #include <string>
 
-class GreenNode {
+class GreenNode{
 private:
     string projectName;
     string location;
@@ -12,7 +13,7 @@ private:
     GreenNode* next;
 
 public:
-    GreenNode(string name, string loc, int year);
+    GreenNode(std::string name, std::string loc, int year);
     ~GreenNode();
 
     friend class GreenList;

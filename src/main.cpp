@@ -1,6 +1,8 @@
 #include "GreenList.h"
 #include <iostream>
 
+using namespace std;
+
 int main() {
     GreenList list;
 
@@ -8,10 +10,10 @@ int main() {
     list.addBack("Solar Roof Initiative", "Engineering Faculty", 2022);
     list.addFront("Recycling Station", "Central Canteen", 2024);
 
-    std::cout << "=== Mahidol Green University Projects ===\n";
+    cout << "=== Mahidol Green University Projects ===\n";
     list.printAll();
 
-    std::cout << "Removing: Solar Roof Initiative\n";
+    cout << "Removing: Solar Roof Initiative\n";
     list.removeByName("Solar Roof Initiative");
 
     list.printAll();

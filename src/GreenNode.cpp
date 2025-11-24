@@ -4,5 +4,5 @@ GreenNode::GreenNode(std::string name, std::string loc, int year)
     : projectName(name), location(loc), startYear(year), next(nullptr) {}
 
 GreenNode::~GreenNode() {
-    // if there re no dynamic memory it's nothing to do
+    // if no dynamic memory so do nothing.
 }
