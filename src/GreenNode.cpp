@@ -5,3 +5,4 @@ GreenNode::GreenNode(std::string name, std::string loc, int year)
 
 GreenNode::~GreenNode() {
     // if there re no dynamic memory it's nothing to do
+}
