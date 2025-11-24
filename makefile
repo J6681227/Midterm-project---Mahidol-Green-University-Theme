@@ -1,6 +1,6 @@
-DEPS= test
+DEPS= green
 compile: main.cpp 
-	 g++ main.cpp -o $(DEPS)
+	 g++ src/*.cpp -o $(DEPS)
 
 run: $(DEPS)
 	 ./$(DEPS)
